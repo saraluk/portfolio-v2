@@ -10,60 +10,60 @@ const SkillsSection = () => {
         </div>
         <div className='content-skills-container'>
           <div className='top-container'>
-            <div className='left-container sub-grid padding-vertical'>
+            <div className='left-container sub-grid'>
               <div>
                 <p>HTML</p>
-                <SkillBar width={280} />
-              </div>
-              <div>
-                <p>CSS / SCSS / Sass</p>
-                <SkillBar width={280} />
-              </div>
-              <div>
-                <p>JavaScript</p>
-                <SkillBar width={248} />
-              </div>
-              <div>
-                <p>Node.js</p>
-                <SkillBar width={235} />
-              </div>
-              <div>
-                <p>SQL</p>
-                <SkillBar width={248} />
-              </div>
-            </div>
-            <div className='right-container sub-grid padding-vertical'>
-              <div>
-                <p>Java</p>
-                <SkillBar width={226} />
-              </div>
-              <div>
-                <p>C#</p>
-                <SkillBar width={190} />
-              </div>
-              <div>
-                <p>XML / JSON</p>
                 <SkillBar width={260} />
               </div>
               <div>
+                <p>CSS / SCSS / Sass</p>
+                <SkillBar width={260} />
+              </div>
+              <div>
+                <p>JavaScript</p>
+                <SkillBar width={228} />
+              </div>
+              <div>
+                <p>Node.js</p>
+                <SkillBar width={215} />
+              </div>
+              <div>
+                <p>SQL</p>
+                <SkillBar width={228} />
+              </div>
+            </div>
+            <div className='right-container sub-grid'>
+              <div>
+                <p>Java</p>
+                <SkillBar width={206} />
+              </div>
+              <div>
+                <p>C#</p>
+                <SkillBar width={170} />
+              </div>
+              <div>
+                <p>XML / JSON</p>
+                <SkillBar width={240} />
+              </div>
+              <div>
                 <p>Photoshop</p>
-                <SkillBar width={280} />
+                <SkillBar width={260} />
               </div>
               <div>
                 <p>Illustrator</p>
-                <SkillBar width={265} />
+                <SkillBar width={245} />
               </div>
             </div>
           </div>
           <div className='bottom-container'>
-            <div className='left-container padding-vertical'>
+            <div className='left-container'>
               <p className='small-bold-header-text'>Technologies</p>
               <p>
                 ReactJS, React Native, Ionic Angular, Express, Bootstrap,
                 Docker, Firebase, AWS
               </p>
             </div>
-            <div className='right-container padding-vertical'>
+            <div className='right-container'>
               <p className='small-bold-header-text'>Softwares</p>
               <p>
                 MySQL, Mathlab, Unity, Microsoft Office, Adobe XD,

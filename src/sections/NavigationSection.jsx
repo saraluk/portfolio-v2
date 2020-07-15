@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavigationSection = () => {
   return (
-    <nav className='nav-container'>
+    <nav>
       <div className='nav-content-container'>
         <div className='medium-bolder-header-text padding-right'>&araluk</div>
         <div class='nav-bar tertiary-text-color'>

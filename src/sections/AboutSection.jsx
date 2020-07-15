@@ -3,14 +3,14 @@ import Button from '../components/Button';
 
 const AboutSection = () => {
   return (
-    <div id='#about-section' className='main-container'>
+    <div id='about-section' className='main-container'>
       <div className='content-container'>
         <div className='content-header-container'>
           <p className='large-bold-header-text primary-text-color'>ABOUT ME</p>
         </div>
         <div className='content-about-container'>
-          <div className='left-container center-align'>
-            <div className='padding-vertical'>
+          <div className='center-container center-align'>
+            <div>
               <p className='medium-bold-header-text small-margin-horizontal'>
                 Saraluk Kaiwansakul
               </p>
