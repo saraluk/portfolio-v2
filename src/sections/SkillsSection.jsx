@@ -59,15 +59,15 @@ const SkillsSection = () => {
             <div className='left-container'>
               <p className='small-bold-header-text'>Technologies</p>
               <p>
-                ReactJS, React Native, Ionic Angular, Express, Bootstrap,
-                Docker, Firebase, AWS
+                ReactJS, React Native, Angular, Ionic, Bootstrap, Express,
+                MongoDB, MySQL, Firebase
               </p>
             </div>
             <div className='right-container'>
               <p className='small-bold-header-text'>Softwares</p>
               <p>
-                MySQL, Mathlab, Unity, Microsoft Office, Adobe XD,
-                Pro/Engineering, Solidworks
+                Unity, Mathlab, Microsoft Office, Adobe XD, Pro/Engineering,
+                Solidworks, Navisworks Simulation
               </p>
             </div>
           </div>
