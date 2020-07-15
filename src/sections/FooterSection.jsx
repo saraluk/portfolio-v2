@@ -3,9 +3,9 @@ import React from 'react';
 const FooterSection = () => {
   return (
     <footer className='footer-container dark-grey-container'>
-      <div className='single-row-column-content-container'>
-        <div className='content-footer-container light-text-color'>
-          <div className='left-container'>
+      <div className='footer-content-container'>
+        <div className='sub-footer-content-container light-text-color'>
+          <div className='footer-left-container'>
             <p className='bold-500-text '>Contacts</p>
             <p className='bold-500-text'>saralukkai@gmail.com</p>
             <div className='icon-container margin-top'>
@@ -20,7 +20,7 @@ const FooterSection = () => {
               </a>
             </div>
           </div>
-          <div className='right-container right-align'>
+          <div className='footer-right-container right-align'>
             <p className='bold-500-text'>
               © Saraluk Kaiwansakul 2019 - All rights reserved
             </p>

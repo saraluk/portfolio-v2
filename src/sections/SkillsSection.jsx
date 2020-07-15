@@ -46,11 +46,11 @@ const SkillsSection = () => {
                 <SkillBar width={240} />
               </div>
               <div>
-                <p>Photoshop</p>
+                <p>Adobe Photoshop</p>
                 <SkillBar width={260} />
               </div>
               <div>
-                <p>Illustrator</p>
+                <p>Adobe Illustrator</p>
                 <SkillBar width={245} />
               </div>
             </div>
@@ -66,8 +66,8 @@ const SkillsSection = () => {
             <div className='right-container'>
               <p className='small-bold-header-text'>Softwares</p>
               <p>
-                Unity, Mathlab, Microsoft Office, Adobe XD, Pro/Engineering,
-                Solidworks, Navisworks Simulation
+                Unity, Mathlab, Adobe XD, Microsoft Office, Pro/Engineering,
+                Solidworks
               </p>
             </div>
           </div>

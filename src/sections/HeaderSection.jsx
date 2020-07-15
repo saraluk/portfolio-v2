@@ -3,7 +3,7 @@ import React from 'react';
 const HeaderSection = () => {
   return (
     <header className='header-container header-bg'>
-      <div className='single-row-column-content-container center-vertical-align'>
+      <div className='header-content-container center-vertical-align'>
         <div>
           <div>
             <p className='header-text'>Hello,</p>
