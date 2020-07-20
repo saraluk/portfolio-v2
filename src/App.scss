@@ -211,6 +211,7 @@ nav {
   top: 0;
   background: $light-background-color;
   width: 100%;
+  border-bottom: 0.5px solid $secondary-background-color;
 }
 
 // Navigation section styles
@@ -220,7 +221,7 @@ nav {
   // border: 1px solid grey;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 10px 50px;
+  padding: 5px 50px;
 }
 
 .nav-bar {
@@ -248,9 +249,9 @@ nav {
 }
 
 @keyframes nav-text-bold {
-  from {
+  0% {
   }
-  to {
+  100% {
     font-weight: 700;
     color: $primary-text-color;
   }
@@ -262,10 +263,6 @@ nav {
   grid-template-columns: 1fr;
   grid-template-rows: minmax(600px, auto);
   // border: 1px solid grey;
-  font-family: $specific-font;
-  font-size: $medium-font-size;
-  font-weight: 200;
-  color: $light-text-color;
 }
 
 .header-content-container {
@@ -290,11 +287,50 @@ nav {
   background-size: 100%;
 }
 
-.header-text {
+.heading-primary {
   color: $light-text-color;
   font-family: $specific-font;
+}
+
+.heading-primary-main {
+  display: block;
   font-size: $extra-large-font-size;
   font-weight: 700;
+
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: $medium-font-size;
+  font-weight: 200;
+  letter-spacing: 5px;
+
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
 // About section styles
@@ -314,7 +350,8 @@ nav {
   }
 }
 
-.download-button {
+.download-button,
+.download-button:visited {
   display: grid;
   align-items: center;
   justify-items: center;
@@ -336,14 +373,10 @@ nav {
   background: $dark-background-color;
 }
 
-.download-button:visited {
-  background: $tertiary-text-color;
-}
-
 @keyframes change-bg-color {
-  from {
+  0% {
   }
-  to {
+  100% {
     background: $dark-background-color;
   }
 }
@@ -662,10 +695,10 @@ nav {
 // ******************************************************************
 // Mobile Screen size below 490px
 @media only screen and (max-width: 490px) {
-  $extra-large-font-size: 40px;
-  $larger-font-size: 32px;
-  $large-font-size: 25px;
-  $medium-font-size: 18px;
+  $extra-large-font-size: 34px;
+  $larger-font-size: 28px;
+  $large-font-size: 24px;
+  $medium-font-size: 16px;
   $small-font-size: 13px;
 
   body {
@@ -679,30 +712,6 @@ nav {
   }
 
   // General Text Styles
-  .light-text-color {
-    color: $light-text-color;
-  }
-
-  .tertiary-text-color {
-    color: $tertiary-text-color;
-  }
-
-  .primary-text-color {
-    color: $primary-text-color;
-  }
-
-  .shadow-text {
-    text-shadow: 1px 1px 25px $primary-text-color;
-  }
-
-  .bold-800-text {
-    font-weight: 800;
-  }
-
-  .bold-500-text {
-    font-weight: 500;
-  }
-
   .large-bold-header-text {
     font-size: $large-font-size;
     font-weight: 700;
@@ -748,7 +757,14 @@ nav {
     // border: 1px solid grey;
     max-width: 300px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 8px 0;
+  }
+
+  .nav-bar {
+    display: grid;
+    grid-template-columns: repeat(3, auto) 1fr;
+    column-gap: 20px;
+    padding-top: 5px;
   }
 
   // Header section style
@@ -757,10 +773,6 @@ nav {
     grid-template-columns: 1fr;
     grid-template-rows: minmax(380px, auto);
     // border: 1px solid grey;
-    font-family: $specific-font;
-    font-size: $medium-font-size;
-    font-weight: 200;
-    color: $light-text-color;
   }
 
   .header-content-container {
@@ -773,11 +785,23 @@ nav {
     padding: 30px 0;
   }
 
-  .header-text {
-    color: $light-text-color;
-    font-family: $specific-font;
+  .heading-primary-main {
+    display: block;
     font-size: $extra-large-font-size;
     font-weight: 700;
+
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+  }
+
+  .heading-primary-sub {
+    display: block;
+    font-size: $medium-font-size;
+    font-weight: 200;
+    letter-spacing: 5px;
+
+    animation-name: moveInRight;
+    animation-duration: 2s;
   }
 
   // Skill section style
