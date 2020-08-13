@@ -3,9 +3,17 @@ import ProjectCard from '../components/ProjectCard';
 import SectionHeader from '../components/SectionHeader';
 
 const WorksSection = () => {
+  const title = 'Works';
+  const subtitle1 = 'Cras rhoncus vulputate blandit.';
+  const subtitle2 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
+
   return (
     <div id='works-section' className='wrapper-container'>
-      <SectionHeader header='Works' />
+      <SectionHeader
+        title={title}
+        subtitle1={subtitle1}
+        subtitle2={subtitle2}
+      />
       <div className='works-container'>
         <div className='placeholder-div' />
         <div className='works-content-container'>

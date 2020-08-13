@@ -3,7 +3,7 @@ import React from 'react';
 const NavigationSection = () => {
   return (
     <nav>
-      <div></div>
+      <div className='placeholder-div' />
       <div className='nav-content-container'>
         <div className='medium-bolder-header-text'>&araluk</div>
 
@@ -24,7 +24,7 @@ const NavigationSection = () => {
           </div>
         </div>
       </div>
-      <div></div>
+      <div className='placeholder-div' />
     </nav>
   );
 };
