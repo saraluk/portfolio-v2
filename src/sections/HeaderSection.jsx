@@ -27,9 +27,11 @@ const HeaderSection = () => {
             <Button />
           </div>
         </div>
-        <div className='image-box'>
-          <img className='heading-image' src='/img/IMG_4317.jpg' alt='me' />
-        </div>
+        {
+          // <div className='image-box'>
+          //   <img className='heading-image' src='/img/IMG_4317.jpg' alt='me' />
+          // </div>
+        }
       </div>
       <div className='placeholder-div' />
     </header>
