@@ -13,8 +13,7 @@ $light-background-color: #ffffff;
 $dark-background-color: #222222;
 $red-background-color: #a24d4d;
 
-$general-font: 'Gothic A1', sans-serif;
-$specific-font: 'Manrope', sans-serif;
+$general-font: 'Manrope', sans-serif;
 
 $extra-large-font-size: 60px;
 $larger-font-size: 35px;
@@ -85,19 +84,16 @@ body {
 }
 
 .medium-bolder-header-text {
-  font-family: $specific-font;
   font-size: $medium-font-size;
   font-weight: 900;
 }
 
 .medium-bold-header-text {
-  font-family: $specific-font;
   font-size: $medium-font-size;
   font-weight: 700;
 }
 
 .medium-header-text {
-  font-family: $specific-font;
   font-size: $medium-font-size;
 }
 
@@ -207,7 +203,6 @@ nav {
 
 .heading-primary {
   color: $primary-text-color;
-  font-family: $specific-font;
 }
 
 .heading-primary-main {
@@ -253,7 +248,6 @@ nav {
 
 .sub-heading-primary {
   color: $primary-text-color;
-  font-family: $specific-font;
   margin-top: 40px;
 }
 
@@ -471,7 +465,6 @@ nav {
     grid-template-columns: 1fr 11fr 1fr;
     grid-template-rows: minmax(50px, auto);
     // border: 1px solid grey;
-    font-family: $general-font;
     color: $light-text-color;
     background-color: $tertiary-background-color;
   }
@@ -562,19 +555,16 @@ nav {
   }
 
   .medium-bolder-header-text {
-    font-family: $specific-font;
     font-size: $medium-font-size;
     font-weight: 900;
   }
 
   .medium-bold-header-text {
-    font-family: $specific-font;
     font-size: $medium-font-size;
     font-weight: 700;
   }
 
   .medium-header-text {
-    font-family: $specific-font;
     font-size: $medium-font-size;
   }
 
