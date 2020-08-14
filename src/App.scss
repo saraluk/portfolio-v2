@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 $primary-text-color: #222222;
 $secondary-text-color: #444444;
@@ -17,11 +17,11 @@ $general-font: 'Manrope', sans-serif;
 
 $extra-large-font-size: 60px;
 $larger-font-size: 30px;
-$large-font-size: 22px;
-$medium-font-size: 20px;
-$small-font-size: 18px;
+$large-font-size: 20px;
+$medium-font-size: 18px;
+$small-font-size: 16px;
 
-// Screen width 1000px and above
+//Screen width 1000px and above
 * {
   padding: 0;
   margin: 0;
@@ -41,6 +41,10 @@ body {
   div {
     margin: 0;
     padding: 0;
+  }
+
+  ul {
+    list-style-type: none;
   }
 }
 
@@ -117,7 +121,7 @@ body {
   }
 
   p {
-    font-size: $small-font-size;
+    font-size: $medium-font-size;
     font-weight: 300;
     text-align: center;
   }
@@ -128,7 +132,7 @@ body {
 }
 
 .wrapper-container {
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 // Navigation section styles
@@ -147,7 +151,7 @@ nav {
 .nav-content-container {
   display: grid;
   grid-template-columns: 100px 1fr;
-  grid-template-rows: 80px;
+  grid-template-rows: 70px;
   // border: 1px solid grey;
   align-items: center;
 }
@@ -197,7 +201,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: minmax(650px, auto);
-  margin-top: 60px;
+  margin-top: 50px;
   // border: 1px solid grey;
 
   // background: linear-gradient(
@@ -239,7 +243,7 @@ nav {
 
 .heading-primary-sub {
   display: block;
-  font-size: $medium-font-size;
+  font-size: $large-font-size;
   font-weight: 200;
   letter-spacing: 4px;
 
@@ -338,7 +342,7 @@ nav {
 .skills-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: minmax(380px, auto);
+  grid-template-rows: minmax(350px, auto);
   column-gap: 40px;
   // border: 1px solid grey;
 }
@@ -348,6 +352,7 @@ nav {
   border-radius: 20px;
   padding: 30px 60px;
   background-color: $light-background-color;
+  text-align: center;
 }
 
 // Works section syles
@@ -522,7 +527,7 @@ nav {
   .skills-card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(380px, auto);
+    grid-template-rows: minmax(350px, auto);
     column-gap: 20px;
     // border: 1px solid grey;
   }
@@ -532,6 +537,7 @@ nav {
     border-radius: 20px;
     padding: 30px 30px;
     background-color: $light-background-color;
+    text-align: center;
   }
 
   // Works section syles
@@ -558,7 +564,7 @@ nav {
   $extra-large-font-size: 34px;
   $larger-font-size: 28px;
   $large-font-size: 18px;
-  $medium-font-size: 16px;
+  $medium-font-size: 14px;
   $small-font-size: 14px;
 
   body {
@@ -606,7 +612,7 @@ nav {
     }
 
     p {
-      font-size: $small-font-size;
+      font-size: $medium-font-size;
       font-weight: 300;
       text-align: center;
     }
@@ -617,7 +623,7 @@ nav {
   }
 
   .wrapper-container {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   // Navigation Section styles
@@ -694,7 +700,7 @@ nav {
   // Skills section styles
   .container {
     position: relative;
-    height: 1050px;
+    height: 1000px;
     width: 100vw;
     display: grid;
   }
@@ -715,8 +721,9 @@ nav {
   .skill-card {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    padding: 30px 50px;
+    padding: 20px 50px;
     background-color: $light-background-color;
+    text-align: center;
   }
 
   // Works section syles

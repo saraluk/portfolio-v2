@@ -5,9 +5,7 @@ const FooterSection = () => {
     <footer className='footer-container'>
       <div className='placeholder-div' />
       <div className='footer-content-container'>
-        <p className='bold-500-text'>
-          © Saraluk Kaiwansakul 2019 - All rights reserved
-        </p>
+        <p>© Saraluk Kaiwansakul 2019 - All rights reserved</p>
       </div>
       <div className='placeholder-div' />
     </footer>
