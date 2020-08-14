@@ -1,13 +1,9 @@
 import React from 'react';
 
-const Button = () => {
+const Button = (props) => {
   return (
-    <a
-      href="/file/Saraluk's Resume.pdf"
-      download="Saraluk's Resume"
-      className='download-button'
-    >
-      Download Resume
+    <a href={props.link} download={props.download} className='button'>
+      {props.buttonText}
     </a>
   );
 };

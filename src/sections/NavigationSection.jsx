@@ -5,7 +5,7 @@ const NavigationSection = () => {
     <nav>
       <div className='placeholder-div' />
       <div className='nav-content-container'>
-        <div className='medium-bolder-header-text'>&araluk</div>
+        <img className='logo' src='/logo.png' alt='logo' />
 
         <div className='nav-bar'>
           <div className='nav-bar-link'>

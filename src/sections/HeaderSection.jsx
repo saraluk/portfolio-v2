@@ -24,7 +24,12 @@ const HeaderSection = () => {
               interest in UX/UI design and excels at using Adobe Photoshop &
               Illustrator.
             </div>
-            <Button />
+
+            <Button
+              buttonText='Download Resume'
+              download="Saraluk's Resume"
+              link="/file/Saraluk's Resume.pdf"
+            />
           </div>
         </div>
         {

@@ -4,8 +4,8 @@ import SectionHeader from '../components/SectionHeader';
 
 const WorksSection = () => {
   const title = 'Works';
-  const subtitle1 = 'Cras rhoncus vulputate blandit.';
-  const subtitle2 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
+  const subtitle1 = 'Recent personal and academic projects';
+  const subtitle2 = 'e.g. mobile apps, websites, games.';
 
   return (
     <div id='works-section' className='wrapper-container'>

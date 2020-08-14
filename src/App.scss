@@ -7,7 +7,7 @@ $light-text-color: #ffffff;
 $red-text-color: #a24d4d;
 
 $primary-background-color: #fafafa;
-$secondary-background-color: #b6b6b6;
+$secondary-background-color: #d3d3d3;
 $tertiary-background-color: #666666;
 $light-background-color: #ffffff;
 $dark-background-color: #222222;
@@ -19,7 +19,7 @@ $extra-large-font-size: 60px;
 $larger-font-size: 30px;
 $large-font-size: 22px;
 $medium-font-size: 20px;
-$small-font-size: 16px;
+$small-font-size: 18px;
 
 // Screen width 1000px and above
 * {
@@ -117,7 +117,7 @@ body {
   }
 
   p {
-    font-size: $medium-font-size;
+    font-size: $small-font-size;
     font-weight: 300;
     text-align: center;
   }
@@ -152,6 +152,10 @@ nav {
   align-items: center;
 }
 
+.logo {
+  width: 40px;
+}
+
 .nav-bar {
   display: grid;
   grid-template-columns: 1fr;
@@ -180,7 +184,7 @@ nav {
   a:visited,
   a:active {
     color: $tertiary-text-color;
-    transition: all 0.6s;
+    transition: all 0.4s;
   }
   a:hover {
     border: 1px solid $dark-background-color;
@@ -230,7 +234,7 @@ nav {
   font-weight: 700;
 
   animation-name: moveInLeft;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 .heading-primary-sub {
@@ -240,7 +244,7 @@ nav {
   letter-spacing: 4px;
 
   animation-name: moveInRight;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 @keyframes moveInLeft {
@@ -270,8 +274,8 @@ nav {
   margin-top: 40px;
 }
 
-.download-button,
-.download-button:visited {
+.button,
+.button:visited {
   display: inline-block;
   padding: 15px 30px;
   margin-top: 30px;
@@ -282,12 +286,12 @@ nav {
   transition: all 0.5s;
 }
 
-.download-button:hover {
+.button:hover {
   background: $dark-background-color;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
-.download-button:active {
+.button:active {
   background: $dark-background-color;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -334,7 +338,7 @@ nav {
 .skills-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 380px;
+  grid-template-rows: minmax(380px, auto);
   column-gap: 40px;
   // border: 1px solid grey;
 }
@@ -518,7 +522,7 @@ nav {
   .skills-card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 380px;
+    grid-template-rows: minmax(380px, auto);
     column-gap: 20px;
     // border: 1px solid grey;
   }
@@ -555,7 +559,7 @@ nav {
   $larger-font-size: 28px;
   $large-font-size: 18px;
   $medium-font-size: 16px;
-  $small-font-size: 13px;
+  $small-font-size: 14px;
 
   body {
     font-family: $general-font;
@@ -602,7 +606,7 @@ nav {
     }
 
     p {
-      font-size: $medium-font-size;
+      font-size: $small-font-size;
       font-weight: 300;
       text-align: center;
     }
@@ -690,7 +694,7 @@ nav {
   // Skills section styles
   .container {
     position: relative;
-    height: 1100px;
+    height: 1050px;
     width: 100vw;
     display: grid;
   }

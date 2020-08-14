@@ -4,8 +4,8 @@ import SkillCard from '../components/SkillCard';
 
 const SkillsSection = () => {
   const title = 'Skills';
-  const subtitle1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
-  const subtitle2 = 'Cras rhoncus vulputate blandit.';
+  const subtitle1 = 'Professional in front-end development';
+  const subtitle2 = 'with some back-end knowledges and design skill.';
   const textColor = '#ffffff';
   const frontendList = [
     'HTML',
