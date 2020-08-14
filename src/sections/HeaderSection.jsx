@@ -18,11 +18,11 @@ const HeaderSection = () => {
               </span>
             </h1>
             <div className='sub-heading-primary'>
-              Computer Science student passionate about building seamless and
-              responsive user experience on Web and Mobile using JavaScript
-              technologies such as React, React Native, Ionic Angular. Strong
-              interest in UX/UI design and excels at using Adobe Photoshop &
-              Illustrator.
+              A computer science student based in New York, passionate about
+              building seamless and responsive user experience on Web and Mobile
+              using JavaScript technologies such as React, React Native, Ionic
+              Angular. Strong interest in UX/UI design and excels at using Adobe
+              Photoshop and Illustrator.
             </div>
 
             <Button
